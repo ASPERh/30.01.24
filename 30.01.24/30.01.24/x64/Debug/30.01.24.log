@@ -1,0 +1,151 @@
+﻿  frac.cpp
+  group.cpp
+C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(5,45): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(5,45): error C2143: синтаксическая ошибка: отсутствие "," перед "&"
+C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(6,34): error C2061: синтаксическая ошибка: идентификатор "Group"
+C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(6,10): error C2805: бинарный "operator >>" имеет слишком мало параметров
+C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(39,16): error C2593: неоднозначный "оператор <<"
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(277,39):
+  может быть "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)"
+  C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(5,10):
+  или       "std::ostream &operator <<(std::ostream &,const int)"
+  C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(39,16):
+  при попытке сопоставить список аргументов "(std::basic_ostream<char,std::char_traits<char>>, int)"
+  
+C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,13): error C2679: бинарный "<<": не найден оператор, принимающий правый операнд типа "Student" (или приемлемое преобразование отсутствует)
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(480,39):
+  может быть "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)"
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(448,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)"
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(430,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)"
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(412,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)"
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(394,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)"
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(376,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)"
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(358,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)"
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(340,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)"
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(322,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)"
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(303,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)"
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(277,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)"
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(258,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)"
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(224,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)"
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(206,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)"
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(200,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))"
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(194,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))"
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(189,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))"
+  C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(5,10):
+  или       "std::ostream &operator <<(std::ostream &,const int)"
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(1080,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)"
+  	C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,19):
+  	инициализация: невозможно преобразовать "Student" в "const std::error_code &"
+  		C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,19):
+  		Причина: невозможно преобразовать "Student" в "const std::error_code"
+  		C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,19):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(1003,9):
+  или       "_Ostr &&std::operator <<(_Ostr &&,const _Ty &)"
+  	C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,13):
+  	"_Ostr &&std::operator <<(_Ostr &&,const _Ty &)": не удается вывести аргумент шаблон для "__formal"
+  		D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(1002,103):
+  		"<template-parameter>": невозможно создать указатель на ссылку
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(945,31):
+  или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)"
+  	C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,19):
+  	инициализация: невозможно преобразовать "Student" в "unsigned char"
+  		C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,19):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(939,31):
+  или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)"
+  	C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,19):
+  	инициализация: невозможно преобразовать "Student" в "const unsigned char *"
+  		C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,19):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(934,31):
+  или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)"
+  	C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,19):
+  	инициализация: невозможно преобразовать "Student" в "signed char"
+  		C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,19):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(928,31):
+  или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)"
+  	C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,19):
+  	инициализация: невозможно преобразовать "Student" в "const signed char *"
+  		C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,19):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(892,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)"
+  	C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,13):
+  	"std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)": в шаблон параметр "_Elem" неоднозначен
+  		C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,13):
+  		может быть "Student"
+  		C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,13):
+  		или       "char"
+  	C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,13):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': не удалось вывести аргумент шаблон для '_Elem' из 'Student'
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(849,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)"
+  	C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,13):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': не удалось вывести аргумент шаблон для 'const _Elem *' из 'Student'
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(811,31):
+  или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)"
+  	C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,19):
+  	инициализация: невозможно преобразовать "Student" в "char"
+  		C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,19):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(766,31):
+  или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)"
+  	C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,19):
+  	инициализация: невозможно преобразовать "Student" в "const char *"
+  		C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,19):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(730,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)"
+  	C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,19):
+  	инициализация: невозможно преобразовать "Student" в "char"
+  		C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,19):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(686,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)"
+  	C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,19):
+  	инициализация: невозможно преобразовать "Student" в "const char *"
+  		C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,19):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\memory(3629,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)"
+  	C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,13):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': не удалось вывести аргумент шаблон для 'const std::unique_ptr<_Ty2,_Dx2> &' из 'Student'
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\memory(1978,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)"
+  	C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,13):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': не удалось вывести аргумент шаблон для 'const std::shared_ptr<_Ty> &' из 'Student'
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\xstring(5193,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)"
+  	C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,13):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'const std::basic_string<_Elem,_Traits,_Alloc> &' из 'Student'
+  C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(40,13):
+  при попытке сопоставить список аргументов "(std::ostream, Student)"
+  
+C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(74,14): error C2593: неоднозначный "оператор <<"
+  D:\VisualStudio\VC\Tools\MSVC\14.38.33130\include\ostream(277,39):
+  может быть "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)"
+  C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(5,10):
+  или       "std::ostream &operator <<(std::ostream &,const int)"
+  C:\Users\ASPER\source\repos\30.01.24\30.01.24\group.cpp(74,14):
+  при попытке сопоставить список аргументов "(std::basic_ostream<char,std::char_traits<char>>, int)"
+  
+  Создание кода...
